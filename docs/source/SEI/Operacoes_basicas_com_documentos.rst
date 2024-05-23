@@ -32,7 +32,7 @@ Em seguida, preencha os campos de cadastramento do documento, os quais são seme
 
 O campo **Texto Inicial** estará selecionado como sugestão a opção “**Nenhum**”. Se desejar, o usuário poderá selecionar um “**Documento Modelo**” ou um “**Texto Padrão**” para gerar o documento.
 
-Caso seja selecionado “**Documento Modelo**”, o usuário deverá selecionar o modelo a ser utilizado. O documento utilizado como modelo deverá ser previamente indicado como Favorito para que esteja disponível para seleção do usuário.
+Caso seja selecionado “**Documento Modelo**”, o usuário deverá informar o número do protocolo do documento a ser utilizado como referência ou selecionar o modelo "**Favorito**" a ser utilizado.
 
 .. figure:: _static/images/5-OBD-inclusao_documento_documento_modelo.png
 
@@ -54,18 +54,19 @@ O campo “**Observações desta unidade**” do documento também poderá ser p
 
 * **Nível de Acesso**
   
-  * *Público*: os documentos estarão disponíveis para visualização de todos os usuários do órgão.
+  * *Público*: os documentos estarão disponíveis para visualização de todos os usuários do órgão;
   
-  * *Restrito*: o processo e seus documentos estarão disponíveis para visualização de usuários das unidades pelas quais o processo tramitar. Ao selecionar essa opção o sistema exibirá campo para seleção da hipótese legal de restrição. A indicação da hipótese é obrigatória e deverá seguir a legislação em vigor..
+  * *Restrito*: o processo e seus documentos estarão disponíveis para visualização de usuários das unidades pelas quais o processo tramitar. Ao selecionar essa opção o sistema exibirá campo para seleção da hipótese legal de restrição. A indicação da hipótese é obrigatória e deverá seguir a legislação em vigor;
   
-  * *Sigiloso*: o processo e seus documentos estarão disponíveis apenas para usuários com permissão específica e previamente credenciados. Para marcar essa opção é necessário que o administrador do sistema indique previamente que esse tipo de documento pode ser marcado dessa maneira. 
+  * *Sigiloso*: o processo e seus documentos estarão disponíveis apenas para usuários com permissão específica e previamente credenciados. Para marcar essa opção, é necessário que o administrador do sistema indique previamente que o respectivo tipo de processo no qual o documento está inserido pode ser categorizado com esse nível de acesso. 
 
 Após o preenchimento adequado dos campos de cadastramento, o usuário deverá clicar em **Salvar**.
 
 .. admonition:: Notas
 
    1. A qualidade dos dados cadastrados auxiliará, posteriormente, na pesquisa do documento.
-   2. Ao marcar as opções "Restrito" ou "Sigiloso" no campo de Nível de Acesso do documento, todo o processo receberá a mesma classificação.
+   2. Ao marcar as opções "Restrito" ou "Sigiloso" no campo de Nível de Acesso do documento, todo o processo será tratado com a mesma categorização para fins de pesquisa por parte de usuários internos do sistema.
+   3. Caso o órgão utilize o módulo de "**Pesquisa Pública**" do SEI, os documentos públicos inseridos em processos também com nível de acesso público terão seu conteúdo disponível para consulta por parte de qualquer cidadão.
 
 Após a confirmação da operação, o documento será inserido, automaticamente, na “**Árvore do Processo**” e ficará disponível para edição e para assinatura. 
 
